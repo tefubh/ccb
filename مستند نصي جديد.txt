@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حصن المسلم - أدعية وأذكار</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>حصن المسلم</h1>
+        <p>أدعية وأذكار من الكتاب والسنة</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">الصفحة الرئيسية</a></li>
+            <li><a href="#ad3iya">الأدعية</a></li>
+            <li><a href="#athkar">الأذكار</a></li>
+            <li><a href="#about">عن الكتاب</a></li>
+            <li><a href="#contact">اتصل بنا</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>مرحبًا بكم في موقع حصن المسلم</h2>
+        <p>هذا الموقع يقدم لكم مجموعة من الأدعية والأذكار المأخوذة من كتاب "حصن المسلم" للشيخ سعيد القحطاني.</p>
+        <img src="book-cover.jpg" alt="غلاف كتاب حصن المسلم" width="300">
+    </section>
+
+    <section id="ad3iya">
+        <h2>الأدعية</h2>
+        <div class="card">
+            <h3>دعاء الصباح</h3>
+            <p>أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ...</p>
+        </div>
+        <div class="card">
+            <h3>دعاء المساء</h3>
+            <p>أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ...</p>
+        </div>
+    </section>
+
+    <section id="athkar">
+        <h2>الأذكار</h2>
+        <div class="card">
+            <h3>أذكار الصباح</h3>
+            <p>سُبْحَانَ اللَّهِ وَبِحَمْدِهِ: مائة مرة.</p>
+        </div>
+        <div class="card">
+            <h3>أذكار المساء</h3>
+            <p>سُبْحَانَ اللَّهِ وَبِحَمْدِهِ: مائة مرة.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>عن الكتاب</h2>
+        <p>كتاب "حصن المسلم" من تأليف الشيخ سعيد بن علي بن وهف القحطاني، ويحتوي على مجموعة من الأدعية والأذكار المأخوذة من القرآن الكريم والسنة النبوية.</p>
+    </section>
+
+    <section id="contact">
+        <h2>اتصل بنا</h2>
+        <form>
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">الرسالة:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2023 موقع حصن المسلم. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
